@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VWViewController : UIViewController
+@interface VWViewController : UIViewController <UIScrollViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) UIImageView *globeImageView;
 
 @end
